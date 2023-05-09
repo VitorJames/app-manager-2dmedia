@@ -63,7 +63,7 @@
                                 :src="
                                   product.img_produto == ''
                                     ? 'https://puducherry-dt.gov.in/wp-content/themes/district-theme-2/images/blank.jpg'
-                                    : 'https://gestao.2dmedia.com.br/views/img/produtos/' +
+                                    : 'http://gestao.2dmedia.com.br/views/img/produtos/' +
                                       product.img_produto
                                 "
                               ></v-img>
@@ -110,7 +110,7 @@
                                 :src="
                                   product.img_produto == ''
                                     ? 'https://puducherry-dt.gov.in/wp-content/themes/district-theme-2/images/blank.jpg'
-                                    : 'https://gestao.2dmedia.com.br/views/img/produtos/' +
+                                    : 'http://gestao.2dmedia.com.br/views/img/produtos/' +
                                       product.img_produto
                                 "
                               ></v-img>

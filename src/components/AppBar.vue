@@ -26,7 +26,6 @@
       </v-tabs>
     </template>
     <v-btn
-      href="https://github.com/vuetifyjs/vuetify/releases/latest"
       target="_blank"
       icon
       v-if="$vuetify.breakpoint.smAndDown"
@@ -34,8 +33,6 @@
       <v-icon>mdi-cart</v-icon>
     </v-btn>
     <v-btn
-      href="https://github.com/vuetifyjs/vuetify/releases/latest"
-      target="_blank"
       icon
       title="Sair"
     >
