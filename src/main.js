@@ -6,7 +6,7 @@ import store from './store'
 import axios from 'axios'
 import vuetify from './plugins/vuetify'
 
-axios.defaults.baseURL = 'http://gestao.2dmedia.com.br/logica/controllers/ControllerCategoria.php';
+axios.defaults.baseURL = 'https://gestao.2dmedia.com.br/logica/controllers/ControllerCategoria.php';
 
 Vue.prototype.axios = axios
 Vue.config.productionTip = false
